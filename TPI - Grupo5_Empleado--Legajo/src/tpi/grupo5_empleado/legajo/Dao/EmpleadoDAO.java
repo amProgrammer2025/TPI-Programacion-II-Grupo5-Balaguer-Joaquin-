@@ -16,10 +16,6 @@ import java.util.List;
 import tpi.grupo5_empleado.legajo.Config.DatabaseConnection;
 import tpi.grupo5_empleado.legajo.Models.Empleado;
 
-/**
- *
- * @author gauta
- */
 public class EmpleadoDAO implements GenericDAO<Empleado>{
 
     private static final String INSERT_SQL = "INSERT INTO empleado (nombre, dni, email, fecha_ingreso, area) VALUES (?, ?, ?, ?, ?)";

@@ -8,10 +8,6 @@ import java.util.List;
 import tpi.grupo5_empleado.legajo.Dao.GenericDAO;
 import tpi.grupo5_empleado.legajo.Models.Legajo;
 
-/**
- *
- * @author gauta
- */
 public class LegajoServiceImpl implements GenericService<Legajo>{
 
     private final GenericDAO<Legajo> legajoDAO;

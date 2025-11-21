@@ -9,10 +9,6 @@ import java.sql.DatabaseMetaData;
 import java.sql.SQLException;
 import tpi.grupo5_empleado.legajo.Config.DatabaseConnection;
 
-/**
- *
- * @author gauta
- */
 public class TestConexion {
     
         public static void main(String[] args) {

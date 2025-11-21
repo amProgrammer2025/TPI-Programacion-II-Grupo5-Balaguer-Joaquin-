@@ -6,10 +6,6 @@ package tpi.grupo5_empleado.legajo.Service;
 
 import java.util.List;
 
-/**
- *
- * @author gauta
- */
 public interface GenericService<T> {
     void insertar(T entidad) throws Exception;
     void actualizar(T entidad) throws Exception;

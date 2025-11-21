@@ -4,10 +4,6 @@
  */
 package tpi.grupo5_empleado.legajo.Config;
 
-/**
- *
- * @author gauta
- */
 import java.sql.Connection;
 import java.sql.SQLException;
 

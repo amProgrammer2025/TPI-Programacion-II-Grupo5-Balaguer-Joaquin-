@@ -14,10 +14,6 @@ import java.util.List;
 import tpi.grupo5_empleado.legajo.Config.DatabaseConnection;
 import tpi.grupo5_empleado.legajo.Models.Legajo;
 
-/**
- *
- * @author gauta
- */
 public class LegajoDAO implements GenericDAO<Legajo>{
     
     private static final String INSERT_SQL = "INSERT INTO legajo (nro_legajo, categoria, estado, fecha_alta, observaciones) VALUES (?, ?, ?, ?, ?)";
@@ -134,19 +130,6 @@ public class LegajoDAO implements GenericDAO<Legajo>{
             }
         }
     }
-    
-    /*
-    
-        To potentially debug this method
-    
-        ResultSetMetaData md = rs.getMetaData();
-        int columnCount = md.getColumnCount();
-
-        for (int i = 1; i <= columnCount; i++) {
-            System.out.println(md.getColumnName(i));
-        }
-    
-    */
     
     private Legajo mapResultSetToLegajo(ResultSet rs) throws SQLException{
         

@@ -10,10 +10,6 @@ import tpi.grupo5_empleado.legajo.Dao.LegajoDAO;
 import tpi.grupo5_empleado.legajo.Service.EmpleadoServiceImpl;
 import tpi.grupo5_empleado.legajo.Service.LegajoServiceImpl;
 
-/**
- *
- * @author gauta
- */
 public class AppMenu {
     
     private final Scanner scanner;

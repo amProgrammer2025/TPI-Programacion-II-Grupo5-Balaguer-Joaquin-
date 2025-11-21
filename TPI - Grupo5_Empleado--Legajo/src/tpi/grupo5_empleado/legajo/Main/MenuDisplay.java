@@ -4,10 +4,6 @@
  */
 package tpi.grupo5_empleado.legajo.Main;
 
-/**
- *
- * @author gauta
- */
 public class MenuDisplay {
     public static void mostrarMenuPrincipal() {
         System.out.println("\n========= MENU =========");
